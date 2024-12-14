@@ -1,0 +1,117 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "My pleasure",
+                "You're Welcome"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Weather",
+            "patterns": [
+                "What is weather like?",
+                "is it raining today?",
+                "is it sunny today?",
+                "how is the weather?"
+            ],
+            "responses": [
+                "Sorry, I cannot provide weather information right now.",
+                "Iam currently unable to check the weather."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fav",
+            "patterns": [
+                "Who is your favourite hero?"
+            ],
+            "responses": [
+                "My favourite hero is Everyones favourite!",
+                "Pan India star Prabhas"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "How are you?",
+                "What’s up?",
+                "How’s it going?",
+                "What’s new?",
+                "How’s your day going?",
+                "How are things?",
+                "Are you happy today?",
+                "What’s been going on?",
+                "Feeling good today?",
+                "What do you like to do?",
+                "Do you like music?"
+            ],
+            "responses": [
+                "I'm doing great, thanks for asking!",
+                "I'm doing well, how about you?",
+                "Things are going well, thanks for asking!",
+                "I'm just a chatbot, but I'm functioning well. How about you?",
+                "I'm always happy to chat with you!",
+                "I love learning new things. How about you?",
+                "Oh, I love music! What's your favorite genre?",
+                "I'm doing fine! What's something fun you have done today?",
+                "You are awesome! How is your day going?"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
